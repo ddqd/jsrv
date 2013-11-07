@@ -16,4 +16,7 @@
 
 ---
 ####API
-`get /api/getstate` 
+get state:  
+`get /api/getstate`  
+get all states:  
+`get /api/all` 

@@ -12,5 +12,9 @@ module.exports = function(app, config) {
     app.get('/api/getstate', function(req, res) {
     	res.send(getState());
     });
+
+    app.get('/api/all', function(req, res) {
+    	res.send(config.state);
+    });
 }
 
