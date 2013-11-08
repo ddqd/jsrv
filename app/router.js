@@ -16,5 +16,9 @@ module.exports = function(app, config) {
     app.get('/api/all', function(req, res) {
     	res.send(config.state);
     });
+
+    app.get('/', function(req, res) {
+    	res.send("");
+    });
 }
 
