@@ -24,7 +24,7 @@ if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
 
-var config = require('./config.json');
+var config = require('./conf.json');
 
 require(__dirname+'/app/router')(app, config);
 

@@ -1,0 +1,14 @@
+{
+    "nodes": {
+        "erlconf@e50nix": {
+            "apps": {
+                "someapp": {
+                    "env": {
+                        "serverKey1": "ServerVal1",
+                        "serverKey2": "ServerValue1"
+                    }
+                }
+            }
+        }
+    }
+}
